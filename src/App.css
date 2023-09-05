@@ -17,21 +17,23 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  /* flex-direction:row; */
   align-items: center;
-  /* justify-content: ; */
-
-  font-size: calc(10px + 2vmi n);
+  justify-content: center;
+  gap: .5rem;
+  font-size: calc(10px + 2vmin);
   color: white;
 }
 .search{
- 
-  padding: 3rem;
+
+   
+  padding: 2rem;
   border-radius: 1rem;
   background-color: rgb(36, 54, 101);
 }
+
 label{
- 
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   font-size: 1rem;
